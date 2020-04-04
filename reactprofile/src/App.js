@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
  
 import Home from '../src/components/Homepage/Homepage';
-import About from '../src/components/AboutPage/About';
-import Contact from '../src/components/ResumePage/Resume';
-
 import Navigation from '../src/components/Navbar/Navbar';
+import resume from '../src/components/ResumePage/Resume';
+import portfolio from '../src/components/PorfolioPage/Portfolio';
  
 class App extends Component {
   render() {
@@ -15,9 +14,9 @@ class App extends Component {
           <Navigation />
             <Switch>
              <Route path="/" component={Home} exact/>
-             <Route path="/about" component={About}/>
-             <Route path="/contact" component={Contact}/>
-            <Route component={Error}/>
+             <Route path="/Portfolio" component={portfolio}/>
+             <Route path="/Resume" component={resume}/>
+            {/* <Route component={Error}/> */}
            </Switch>
         </div> 
       </BrowserRouter>
