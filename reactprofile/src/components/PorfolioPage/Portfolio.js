@@ -19,12 +19,7 @@ const portfolio = () => {
          <a  rel="noopener noreferrer" target="_blank" href="https://anzook.github.io/The-Git-Gud-Team/"> <img className="img" src={logo2} alt="cohortcollab" /> </a>
          <p>Cohort Collab - LIVE DEMO!!!</p>
          </div>
-         <div>
-         <a rel="noopener noreferrer" target="_blank" href="https://github.com/SkinnySk8ter/Daily-Planner">
-            <img className="img" src={logo3} alt="dailyplanner" />
-         </a>
-         <p>Daily Planner</p>
-         </div>
+        
          <div>
          <a rel="noopener noreferrer" target="_blank" href="https://guarded-spire-72598.herokuapp.com/">
             <img className="img" src={logo4} alt="notetaker" />
