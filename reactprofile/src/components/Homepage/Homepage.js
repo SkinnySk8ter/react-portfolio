@@ -1,15 +1,27 @@
 import React from 'react';
 import logo from "../newprofilepic.jpg"
+import '../Homepage/Homepage.css'
 
 
 const home = () => {
     return (
         <div className="container">
-            <h1>Welcome!</h1>
-            <img src={logo}  alt="myimage"/>
-            <p>Hello and welcome to my portfolio! My name is Jody Jones and I am a Full Stack Developer. Within this site I have a showcase of completed works (my own and group work) and some projects that I am currently working on. Feel free to look around and reach out to me at anytime! Thank you for your time.</p>
+            <h1>About me</h1>
+            <img className='myimg' src={logo} alt="myimage" />
+            <p>Hello and welcome! My name is Jody Jones and I am a Full Stack Developer. I have a passion for web development and learning more everyday as well as gaming. I believe actions speak louder than words so feel free to take a look around!</p>
+            <hr></hr>
+            <footer>
+            <p>Author: Jody Jones</p>
+            <p><a href="mailto:jodybjones@yahoo.com">jodybjones@yahoo.com</a></p>
+        </footer>
         </div>
+
+        
+       
+        
     );
 }
+
+
 
 export default home;
